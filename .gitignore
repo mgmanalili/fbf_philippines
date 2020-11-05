@@ -1,0 +1,11 @@
+config.txt
+crontask.txt
+
+/logs
+/data
+/img
+
+*.xlsx
+*.html
+*.log
+*.DS_Store
