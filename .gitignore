@@ -8,3 +8,5 @@ crontask.txt
 *.html
 *.log
 *.DS_Store
+*.ipynb_checkpoints
+*.ipynb
