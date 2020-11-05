@@ -3,7 +3,6 @@ crontask.txt
 
 /logs
 /data
-/img
 
 *.xlsx
 *.html
