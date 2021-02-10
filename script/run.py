@@ -3,7 +3,6 @@
 
 __author__ = 'Emergency Division WFP'
 __project__ = 'FbF project Maguindanao, WFP Philippine CO'
-__contact__ = 'michael.manalili@wfp.org', 'wfp.hq.gis@wfp.org'
 
 #!/usr/bin/env python3
 import requests, os, time, shutil
@@ -237,7 +236,7 @@ def job():
     <br/>Service provided by 
     <br/><i>UNITED NATIONS WORLD FOOD PROGRAMME
     <br/>WFP Emergency Division
-    <br/>Contact: <a href="mailto:hq.gis@wfp.org">HQ Geospatial Support Unit</a></i></p>
+    <br/>Contact: <a href="mailto:@someone.com">HQ Geospatial Support Unit</a></i></p>
     """ %(date_cut)#add 'a' in the modulo
 
     alert_fn = alert_csv_path + alert_data_name
@@ -269,10 +268,8 @@ def job():
     s.login(smtp_un, smtp_pw)
     sender = 'wfp.hq.dbtrack@gmail.com'
     
-#     recipients = ['michaelandrew.manalili@gmail.com', 'michael.manalili@wfp.org' ,'mishael.argonza@wfp.org','damien.fontaine@wfp.org','martin.parreno@wfp.org',
-#                   'jesse.mason@wfp.org','joan.odena@wfp.org','juanito.berja@wfp.org','isabelle.lacson@wfp.org','lara.prades@wfp.org','paris.kazis@wfp.org','abdel-lathif.younous@wfp.org']
-    
-    recipients = ['michaelandrew.manalili@gmail.com']
+
+    recipients = ['someone@gmail.com']
     
     if gbl_alert.empty == True:
         pass
